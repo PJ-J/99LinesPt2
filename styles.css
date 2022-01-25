@@ -1,0 +1,16 @@
+body {
+  background-color: #c0a9bd;
+  Font-family: courier new, helvetica, sans-serif;
+}
+
+h1 {
+  color: #f4f2f3 ;
+}
+
+.friend {
+  background-color: #94a7ae;
+}
+
+.friend > h3 {
+  text-transform: uppercase;
+}
