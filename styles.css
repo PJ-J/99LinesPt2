@@ -1,16 +1,39 @@
 body {
-  background-color: #c0a9bd;
-  Font-family: courier new, helvetica, sans-serif;
+  background-color: #4a5fc1;
+  Font-family: 'Courier New', helvetica, sans-serif;
 }
 
 h1 {
-  color: #f4f2f3 ;
+  color: #e5b9a8 ;
+}
+
+h3 {
+  color: #e5b9a8;
+}
+
+p {
+  color: #394f8a;
 }
 
 .friend {
-  background-color: #94a7ae;
+  background-color: #e1fcfd;
+  border-radius: 10px;
 }
 
 .friend > h3 {
   text-transform: uppercase;
+}
+
+.button {
+  background-color: #9cf6fb;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  padding: 15px 32px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #ead6cd;
+  color: #394f8a;
 }
