@@ -6,6 +6,7 @@ body {
 h1 {
   display: flex;
   color: #e5b9a8 ;
+  text-shadow: 0 0 3px red, 0 0 5px #e1fcfd;
   justify-content: center;
 
 }
@@ -44,6 +45,7 @@ p {
   font-weight: bolder;
   padding: 15px 32px;
   border-radius: 10px;
+  text-shadow: 0 0 3px #e5b9a8, 0 0 5px #e1fcfd;
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
