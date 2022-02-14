@@ -4,7 +4,10 @@ body {
 }
 
 h1 {
+  display: flex;
   color: #e5b9a8 ;
+  justify-content: center;
+
 }
 
 h3 {
@@ -17,6 +20,8 @@ p {
 
 .friend {
   background-color: #e1fcfd;
+  margin: 15px;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -25,10 +30,18 @@ p {
   text-transform: uppercase;
 }
 
+
+
+#btn {
+  display: flex;
+  justify-content: center;
+}
+
 .button {
   background-color: #9cf6fb;
   font-family: 'Courier New', Courier, monospace;
   font-size: x-large;
+  font-weight: bolder;
   padding: 15px 32px;
   border-radius: 10px;
   transition-duration: 0.4s;
