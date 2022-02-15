@@ -1,14 +1,13 @@
 body {
   background-color: #4a5fc1;
-  Font-family: 'Courier New', helvetica, sans-serif;
+  font-family: "Courier New", helvetica, sans-serif;
 }
 
 h1 {
   display: flex;
-  color: #e5b9a8 ;
+  color: #e5b9a8;
   text-shadow: 0 0 3px red, 0 0 5px #e1fcfd;
   justify-content: center;
-
 }
 
 h3 {
@@ -20,18 +19,17 @@ p {
 }
 
 .friend {
+  display: inline-block;
   background-color: #e1fcfd;
   margin: 15px;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .friend > h3 {
   text-transform: uppercase;
 }
-
-
 
 #btn {
   display: flex;
@@ -40,14 +38,14 @@ p {
 
 .button {
   background-color: #9cf6fb;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: x-large;
   font-weight: bolder;
   padding: 15px 32px;
   border-radius: 10px;
   text-shadow: 0 0 3px #e5b9a8, 0 0 5px #4a5fc1;
   transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button:hover {
